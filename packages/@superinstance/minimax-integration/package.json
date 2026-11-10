@@ -1,0 +1,29 @@
+{
+  "name": "@superinstance/minimax-integration",
+  "version": "1.0.0",
+  "description": "MiniMax AI integration for SuperInstance.AI - 92% cost savings with OpenAI-compatible API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "minimax",
+    "ai",
+    "llm",
+    "cost-optimization",
+    "openai-compatible"
+  ],
+  "author": "SuperInstance.AI",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  }
+}
